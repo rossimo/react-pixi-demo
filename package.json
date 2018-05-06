@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
+    "build": "webpack --mode production",
     "app": "electron http://localhost:8080"
   },
   "author": "Ross Squires <ross.squires@gmail.com>",

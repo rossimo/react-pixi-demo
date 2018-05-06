@@ -13,7 +13,7 @@ module.exports = {
         game: './index.tsx',
     },
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'docs'),
         filename: '[name].bundle.js'
     },
     module: {
